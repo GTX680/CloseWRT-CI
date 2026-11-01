@@ -18,11 +18,11 @@ on:
           - MT7986
           - TEST
       SOURCE:
-        default: 'Yuzhii0718/immortalwrt-mt798x-6.6-padavanonly'
+        default: 'GTX680/immortalwrt-mt798x-6.6-padavanonly'
         required: true
         type: choice
         options:
-         - Yuzhii0718/immortalwrt-mt798x-6.6-padavanonly
+         - GTX680/immortalwrt-mt798x-6.6-padavanonly
          - chasey-dev/immortalwrt-mt798x-rebase
       BRANCH:
         default: 'openwrt-24.10-6.6'
