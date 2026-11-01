@@ -37,3 +37,7 @@ CONFIG_MTK_FIRST_IF_MT7986=y
 CONFIG_MTK_MT7986_NEW_FW=n
 CONFIG_WARP_CHIPSET="mt7986"
 CONFIG_WARP_NEW_FW=n
+#WIFI驱动
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_supergateway_s20l="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_supergateway_s20m="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_supergateway_s20p="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
